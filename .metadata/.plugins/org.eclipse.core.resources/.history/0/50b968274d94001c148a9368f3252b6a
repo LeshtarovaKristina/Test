@@ -1,0 +1,19 @@
+package com.syntax.class13;
+
+public class Task1 {
+	//create a method that takes a person name and an animal name
+		//if person name "Teyfur" and if animal is "Horse" it returns us "camel"
+	
+	String returnTheSameName(String name) {
+		return name;
+	}
+	public static void main(String[] args) {
+		Task1 obj= new Task1();
+		String result=obj.returnTheSameName("Teyfur");
+		
+		String result2=obj.returnTheSameName("Horse");
+		System.out.println(result+" "+result2);
+
+	}
+
+}
