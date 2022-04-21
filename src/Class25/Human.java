@@ -22,6 +22,7 @@ class Maha implements Human,LivingBeing{
 
     @Override
     public void walk() {
-        System.out.println("I can walk");}
+        System.out.println("I can walk");
+    }
 
     }
